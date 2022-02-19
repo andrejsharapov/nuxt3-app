@@ -1,3 +1,5 @@
+[![preview][preview]][]
+
 # Nuxt 3
 
 <p align="center">
@@ -33,6 +35,8 @@ yarn add --dev @nuxtjs/color-mode
 <p align="right">
   <a href="#nuxt-3">To top</a>
 </p>
+
+[preview]: https://user-images.githubusercontent.com/44722574/154818080-e2bc0724-d84e-41aa-84ba-79fe54c9e2b1.png
 
 [vue]: https://vuejs.org
 [vue-image]: https://img.shields.io/badge/vue-3.x.x-41b883.svg
