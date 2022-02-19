@@ -13,17 +13,17 @@
             py-2
             inline-flex
             items-center
-            text-grey-darkest
             font-bold
-            hover:bg-gray-400 hover:text-white
             rounded
             cursor-pointer
           "
-          :class="{
-            'bg-blue-500 border-blue-500 text-white hover:bg-blue-700':
-              !$colorMode.unknown && color === $colorMode.preference,
-            'bg-gray-300 border-gray-300':
-              !$colorMode.unknown && color === $colorMode.value,
+          :style="{
+            backgroundColor:
+              !$colorMode.unknown && color === $colorMode.value
+                ? !$colorMode.unknown && color === $colorMode.preference
+                  ? 'var(--border-color)'
+                  : 'white'
+                : '',
           }"
           @click="$colorMode.preference = color"
         >

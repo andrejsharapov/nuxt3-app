@@ -34,10 +34,9 @@ body {
 }
 
 .layout {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  overflow: hidden;
+  max-width: 100vw;
+  min-height: 100vh;
   font-family: var(--fontFamily) !important;
 
   @supports (place-items: center) {

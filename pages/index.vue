@@ -1,9 +1,24 @@
 <template lang="pug">
-.page-index.h-screen.grid.place-items-center
-  global-color-mode-picker
-  hello-world.mb-4.text-center(:msg="title")
-  p {{ desc }}
-  .flex
+.page-index.py-6
+  .w-full.mx-auto.flex.items-center.justify-center
+    global-color-mode-picker
+
+  .text-center(class="lg:mt-20 lg:px-8 xl:mt-28")
+    parallax
+      template(#title)
+        hello-world.text-4xl.tracking-tight.font-extrabold(
+          :msg="title",
+          class="sm:text-5xl md:text-6xl"
+        )
+
+      template(#subtitle)
+        p.mt-3.text-center.font-bold(class="sm:mt-5 sm:text-lg md:mt-5 md:text-3xl") {{ desc }}
+
+      template(#more)
+        .text-base and
+        p kinesis for fun
+
+  .absolute.bottom-16.left-8.flex
     a.mx-2(
       class="hover:text-gray-500",
       target="_blank",
