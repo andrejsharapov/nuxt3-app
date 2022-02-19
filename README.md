@@ -24,6 +24,12 @@ yarn add --dev pug pug-plain-loader
 yarn add --dev sass sass-loader@10
 ```
 
+## Nuxt modules
+
+```bash
+yarn add --dev @nuxtjs/color-mode
+```
+
 <p align="right">
   <a href="#nuxt-3">To top</a>
 </p>

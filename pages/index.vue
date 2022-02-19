@@ -1,6 +1,7 @@
 <template lang="pug">
 .page-index.h-screen.grid.place-items-center
-  hello-world.mb-4(:msg="title")
+  global-color-mode-picker
+  hello-world.mb-4.text-center(:msg="title")
   p Added: {{ desc }}
 </template>
 
