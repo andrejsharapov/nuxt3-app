@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     },
   },
   components: true,
+  css: ["~/assets/css/tailwind.css", "~/assets/css/app.css"],
   meta: {
     htmlAttrs: {
       lang: "en",
