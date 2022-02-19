@@ -10,7 +10,7 @@
 [![tailwindcss][tailwindcss-image]][tailwindcss]
 
 <p align="right">
-  <a href="#uses">To top</a>
+  <a href="#nuxt-3">To top</a>
 </p>
 
 [vue]: https://vuejs.org
