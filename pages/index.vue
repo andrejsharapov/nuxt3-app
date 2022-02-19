@@ -1,13 +1,22 @@
-<template>
-  <div class="h-screen grid place-items-center">
-    <HelloWorld :msg="title" class="mb-4" />
-  </div>
+<template lang="pug">
+.page-index.h-screen.grid.place-items-center
+  hello-world.mb-4(:msg="title")
+  p Added: {{ desc }}
 </template>
 
 <script lang="ts" setup>
 const title = "Nuxt 3 + Tailwind 3";
+const desc = "Pug + S?(C|a)SS";
 
 definePageMeta({
   layout: "default",
 });
 </script>
+
+<style lang="scss" scoped>
+.page-index {
+  p {
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+  }
+}
+</style>

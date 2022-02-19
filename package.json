@@ -9,6 +9,10 @@
     "autoprefixer": "^10.4.2",
     "nuxt3": "latest",
     "postcss": "^8.4.6",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.49.8",
+    "sass-loader": "10",
     "tailwindcss": "^3.0.23"
   },
   "dependencies": {}
