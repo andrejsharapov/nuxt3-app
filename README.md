@@ -9,6 +9,21 @@
 [![postcss][postcss-image]][postcss]
 [![tailwindcss][tailwindcss-image]][tailwindcss]
 
+## Create a new starter project
+
+```bash
+npx nuxi init nuxt3-app
+cd nuxt3-app
+yarn install
+```
+
+## Pre-processors
+
+```bash
+yarn add --dev pug pug-plain-loader
+yarn add --dev sass sass-loader@10
+```
+
 <p align="right">
   <a href="#nuxt-3">To top</a>
 </p>
