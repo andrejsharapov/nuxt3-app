@@ -8,7 +8,7 @@
   "devDependencies": {
     "@mdi/js": "^6.9.96",
     "@nuxtjs/color-mode": "^3.0.0",
-    "autoprefixer": "^10.4.2",
+    "autoprefixer": "^10.4.7",
     "nuxt3": "latest",
     "postcss": "^8.4.6",
     "pug": "^3.0.2",
