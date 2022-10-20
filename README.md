@@ -2,34 +2,32 @@
 
 # Nuxt 3
 
-<p align="center">
-  My starter app
-</p>
-
 [![vue2][vue-image]][vue]
 [![nuxt][nuxt-image]][nuxt]
 [![postcss][postcss-image]][postcss]
 [![tailwindcss][tailwindcss-image]][tailwindcss]
 
-## Create a new starter project
+## Clone a new starter project
 
 ```bash
-npx nuxi init nuxt3-app
+$ git clone https://github.com/andrejsharapov/nuxt3-app.git
+
 cd nuxt3-app
 yarn install
+yarn dev
 ```
 
-## Pre-processors
+### Pre-processors
 
 ```bash
-yarn add --dev pug pug-plain-loader
-yarn add --dev sass sass-loader@10
+pug pug-plain-loader
+sass sass-loader@10
 ```
 
-## Nuxt modules
+### Nuxt modules
 
 ```bash
-yarn add --dev @nuxtjs/color-mode
+@nuxtjs/color-mode
 ```
 
 <p align="right">
