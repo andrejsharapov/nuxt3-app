@@ -1,12 +1,8 @@
 <template>
   <div class="text-center">
     <ul class="flex flex-wrap justify-between items-center mx-auto">
-      <li
-        v-for="(color, index) in ['system', 'light', 'dark', 'sepia']"
-        :key="index"
-      >
-        <div
-          class="
+      <li v-for="(color, index) in ['system', 'light', 'dark', 'sepia']" :key="index">
+        <div class="
             mx-1
             my-2
             px-4
@@ -16,17 +12,15 @@
             font-bold
             rounded
             cursor-pointer
-          "
-          :style="{
+          " :style="{
             backgroundColor:
               !$colorMode.unknown && color === $colorMode.value
                 ? !$colorMode.unknown && color === $colorMode.preference
                   ? 'var(--border-color)'
                   : 'white'
                 : '',
-          }"
-          @click="$colorMode.preference = color"
-        >
+          }" v-box-shadow="!$colorMode.unknown && color === $colorMode.value ? 49 : 0"
+          @click="$colorMode.preference = color">
           <icon :icon="weather[index]" left />
           {{ color }}
         </div>
